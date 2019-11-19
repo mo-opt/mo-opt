@@ -13,10 +13,6 @@ nav ul, footer ul {
   font-weight: bold;
 }
 
-h1 {
-  line-height: 1.3em;
-}
-
 nav ul li, footer ul li {
   display: inline;
   margin-right: 20px;
@@ -38,6 +34,7 @@ a:hover {
 }
 
 h1 {
+  line-height: 1.3em;
   font-size: 3em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -58,7 +55,7 @@ ul.posts li {
 }
 
 p.publication {
-  font-size: .8em;
+  font-size: 1.0em;
   line-height: 1.35em;
   margin: 3px;
   color: #636363;
