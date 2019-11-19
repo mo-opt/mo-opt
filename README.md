@@ -1,1 +1,3 @@
-# mmmoo.github.io
+# Multimodal Multi-Objective Optimization
+
+Website of our research project.
