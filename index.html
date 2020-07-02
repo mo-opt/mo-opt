@@ -19,6 +19,7 @@ title: Multimodal Multi-Objective Optimization
   <li><a href="https://www.wi.uni-muenster.de/department/statistik/people/christian-grimme" alt="Website of Christian Grimme">Christian Grimme</a>, Postdoctoral Reseaercher (University of M&#252;nster, Germany)</li>
   <li><a href="http://erc.is/p/kerschke" alt="Website of Pascal Kerschke">Pascal Kerschke</a>, Postdoctoral Researcher (University of M&#252;nster, Germany)</li>
   <li><a href="https://www.wi.uni-muenster.de/department/statistik/people/lennart-merlin-schaepermeier-1" alt="Website of Lennart Schaepermeier">Lennart Sch&#228;permeier</a>, Graduate Student Assistant (University of M&#252;nster, Germany)</li>
+  <li><a href="https://www.wi.uni-muenster.de/department/statistik/people/vera-steinhoff-2" alt="Website of Vera Steinhoff">Vera Steinhoff</a>, Graduate Student Assistant (University of M&#252;nster, Germany)</li>
   <li><a href="http://erc.is/p/trautmann" alt="Website of Heike Trautmann">Heike Trautmann</a>, Professor (University of Muenster, Germany)</li>
   </ul>
   <li>LIACS, Leiden University:</li>
@@ -41,7 +42,9 @@ title: Multimodal Multi-Objective Optimization
 
 <ul>
   <li><b>R package mogsa</b> [<a href="https://github.com/kerschke/mogsa" alt="View GitHub repository">GitHub</a>]<br>
-  Implementation of the <b>Multi-Objective Gradient Sliding Algorithm (MOGSA)</b>, which efficiently exploits local efficient sets (i.e., local optima of multi-objective problems) to maneuver towards the problem's global efficient sets (= multi-objective global optima). Moreover, this package also contains functionalities to illustrate multi-objective local optima.</li>
+  Implementation of the <b>Multi-Objective Gradient Sliding Algorithm (MOGSA)</b>, which efficiently exploits local efficient sets (i.e., local optima of multi-objective problems) to maneuver towards the problem's global efficient sets (= multi-objective global optima). Moreover, this package also contains functionalities to illustrate multi-objective local optima.</li><br>
+  <li><b>R package moPLOT</b> [<a href="https://github.com/kerschke/moPLOT" alt="View GitHub repository">GitHub</a>]<br>
+  In an attempt to make multi-objective problems more conceivable, <b>moPLOT</b> provides the means to visualize bi- and tri-objective problems (i.e., problems with two or three objectives). This is achieved by plotting the landscapes of their multi-objective gradients using various visualization tools.</li>
 </ul>
 
 
@@ -77,6 +80,14 @@ In the following we provide data used in our <a href="#publications" alt="jump t
       <em>Multimodality in Multi-Objective Optimization — More Boon than Bane?</em><br>
       Proceedings of the 10th International Conference on Evolutionary Multi-Criterion Optimization (EMO), pp. 126-138. Springer.</p></li>
   </ul>
+  <li><b>SOMOGSA</b></li>
+  <ul>
+    <li>A single-objective local search algorithm, which transfers a single-objective problem into a bi-objective problem (<em>multiobjectivization</em>), optimizes it using a modified version of <b>MOGSA</b> and returns the single-objective solution.</li>
+    <li>For details, please refer to:<br>
+      <p class="publication">Steinhoff, Vera and Kerschke, Pascal and Grimme, Christian (2020 ).<br>
+      <em>Empirical Study on the Benefits of Multiobjectivization for Solving Single-Objective Problems</em><br>
+      arXiv:2006.14423.</p></li>
+  </ul>
 </ul>
 
 
@@ -93,10 +104,14 @@ In the following we provide data used in our <a href="#publications" alt="jump t
       <em>Sliding to the Global Optimum: How to Benefit from Non-Global Optima in Multimodal Multi-Objective Optimization.</em><br>
       Proceedings of the International Global Optimization Workshop (LeGO 2018), pp. 020052-1-020052-4. AIP.<br>
       [<a href="https://aip.scitation.org/doi/abs/10.1063/1.5090019" alt="View Publication">View Publication</a>]</p></li>
-    <li><p class="publication">Kerschke, Pascal and Wang, Hao and Preuss, Mike and Grimme, Christian and Deutz, Andr&eacute; H. and Trautmann, Heike and Emmerich, Michael T.M. (2018).<br>
+    <li><p class="publication">Kerschke, Pascal and Wang, Hao and Preuss, Mike and Grimme, Christian and Deutz, Andr&eacute; H. and Trautmann, Heike and Emmerich, Michael T.M. (2019).<br>
       <em>Search Dynamics on Multimodal Multi-Objective Problems</em>.<br>
-      Evolutionary Computation (ECJ), Vol. 0:1-30. MIT Press (in press).<br>
+      Evolutionary Computation (ECJ), Vol. 27(4):577-609. MIT Press.<br>
       [<a href="https://www.mitpressjournals.org/doi/abs/10.1162/evco_a_00234" alt="View Publication">View Publication</a>]</p></li>
+      <li><p class="publication">Steinhoff, Vera and Kerschke, Pascal and Grimme, Christian (2020 ).<br>
+        <em>Empirical Study on the Benefits of Multiobjectivization for Solving Single-Objective Problems</em><br>
+        arXiv:2006.14423.<br>
+        [<a href="https://arxiv.org/abs/2006.14423" alt="Preprint available on arXiv">Preprint available on arXiv</a>]</p></li>
     <li><p class="publication">Wang, Hao and Deutz, Andr&eacute; H. and B&#228;ck, Thomas H.W. and Emmerich, Michael T.M. (2017).<br>
       <em>Hypervolume Indicator Gradient Ascent Multi-objective Optimization</em>.<br>
       Proceedings of the 9th International Conference on Evolutionary Multi-Criterion Optimization (EMO), pp. 654-669. Springer.<br>
@@ -112,5 +127,9 @@ In the following we provide data used in our <a href="#publications" alt="jump t
       <em>Towards Analyzing Multimodality of Multiobjective Landscapes</em>.<br>
       Proceedings of the 14th International Conference on Parallel Problem Solving from Nature (PPSN XIV), pp. 962-972. Springer (<b>Best Paper Award</b>).<br>
       [<a href="https://link.springer.com/chapter/10.1007/978-3-319-45823-6_90" alt="View Publication">View Publication</a>, <a href="https://citation-needed.springer.com/v2/references/10.1007/978-3-319-45823-6_90?format=bibtex&flavour=citation" alt="BibTeX">BibTeX</a>]</p></li>
+      <li><p class="publication">Sch&#228;permeier, Lennart and Grimme, Christian Kerschke, Pascal (2020).<br>
+        <em>One PLOT to Show Them All: Visualization of Efficient Sets in Multi-Objective Landscapes</em>.<br>
+        Proceedings of the 16th International Conference on Parallel Problem Solving from Nature (PPSN XVI). Springer (accepted).<br>
+        [<a href="https://arxiv.org/abs/2006.11547" alt="Preprint available on arXiv">Preprint available on arXiv</a>]</p></li>
   </ul>
 </ul>
